@@ -1,0 +1,44 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background color */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Style the sections */
+section {
+    margin: 1em;
+    padding: 1em;
+}
+
+/* Style project cards */
+.project-card {
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
